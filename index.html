@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="https://code.jquery.com/jquery-3.6.4.js"></script>
+   <script src="index.js"></script>
+   <title>Галерея изображений на jQuey</title>
+</head>
+<body>
+
+   <header>
+      <nav>
+          <div class="logo">
+              <img src="images/orig.jpeg" alt="">
+          </div>
+         
+              <div class="linkNew">                <!-- скрыт в моб.версии -->
+                  <a href="#" class="register">Зарегистрироваться</a>
+                  <a href="#" class="payment">Оплата</a>
+                  <!-- <a href="#">Пока пусто</a> -->
+                  <!-- <a href="#">Пока пусто</a>              -->
+              </div>
+  
+              
+  
+          <div class="MenuNew">            <!-- скрыт при больших экранах, виден только в моб.версии -->
+              <img src="images/free-icon-hamburger-6115389.png" alt="">
+          </div>
+  
+          <div class="linkNew_two">    <!-- скрыт при больших экранах, виден только в моб.версии -->
+              <div>
+               <a href="#" class="register">Зарегистрироваться</a>
+              <br>
+              <a href="#" class="payment">Оплата</a>
+              <br>
+              <!-- <a href="#">Пока пусто</a> -->
+              <br>
+              <!-- <a href="#">Пока пусто</a>       -->
+              </div>     
+          </div>
+  
+      </nav>
+  </header>
+
+
+   
+   <!-- <button class="button">+</button> -->
+
+
+
+   <div class="fhoto">
+   <div class="gallery">
+      
+      <div class="big">
+         <img src="images/картинки/банер_4.jpg" alt="" width="400">
+      </div>
+
+      <div class="small">
+
+         <a href="images/тату_1.jpg">
+            <img src="images/тату_1.jpg" alt="">
+         </a>
+
+         <a href="images/тату_2.jpg">
+            <img src="images/тату_2.jpg" alt="">
+         </a>
+
+         <a href="images/тату_3.jpg">
+            <img src="images/тату_3.jpg" alt="">
+         </a>
+         
+         <a href="images/тату_4.jpg">
+            <img src="images/тату_4.jpg" alt="">
+         </a>
+      </div>
+   </div>
+</div>
+
+<!-- <button class="but_2">Заполните форму регистрации</button> -->
+
+
+
+<!-- <button class="but">Заполните карту для оплаты</button> -->
+
+<div class="registrForm">
+
+   
+      <form class="RF">
+        <section>
+          <div class="se1">
+            <h2>Регистрационная форма</h2>
+
+            <div class="user">
+              <div>
+                <img src="images/username.png" alt="" />
+              </div>
+              <input type="text" placeholder="Имя пользователя" />
+            </div>
+
+            <div class="email">
+              <div>
+                <img src="images/email.png" alt="" />
+              </div>
+              <input type="text" placeholder="Адрес электронной почты" />
+            </div>
+
+            <div class="pswd">
+              <div>
+                <img src="images/pswd.png" alt="" />
+              </div>
+              <input type="password" placeholder="Пароль" />
+              <input type="password" placeholder="Подтвердите пароль" />
+            </div>
+          </div>
+
+          <div class="se2">
+            <h2>Личные данные</h2>
+
+            <div class="name">
+              <input type="text" placeholder="Имя" />
+              <input type="text" placeholder="Фамилия" />
+            </div>
+
+            <div class="male">
+              <select name="select" id="">
+                <option value="">мужской</option>
+                <option value="">женский</option>
+                <option value="">чебурашка</option>
+              </select>
+              <input type="date" />
+            </div>
+          </div>
+        </section>
+
+        <div class="check">
+          <input type="checkbox" />
+          <span>Хочу получать новости и специальные предложения</span>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" />
+          <span>Согласен с условиями использования</span>
+        </div>
+
+        <hr />
+
+        
+          <button class="rfbut">ОТПРАВИТЬ</button>
+        
+      </form>
+  
+
+</div>
+
+
+<div class="overlay">
+   <div class="popup">
+      <div class="Form">
+           
+         <div class="Number">
+             <div>
+                Card Number   
+             </div>
+             <input type="text" class="numb" placeholder="1234 5678 9012 3456" >
+         </div>
+
+         <div class="Name">
+             <div>
+                Name On Card   
+             </div>
+             <input type="text" class="num" placeholder="Name Surname" >
+         </div>
+
+         <div class="Date">
+             <div>
+                 Expiry Date   
+             </div>
+             <input type="text" class="dat" placeholder="02" >
+         </div>
+
+         <div class="Year">
+             <div>
+                  Year  
+             </div>
+             <input type="text" class="yea" placeholder="2023" >
+         </div>
+
+         <div class="CVV">
+             <div>
+                 CVV/CVN   
+             </div>
+             <input type="text" class="cv" placeholder="***" >
+         </div>
+
+                   
+         <div class="Img">
+             <img src="images/картинки/moon_flag.png" alt="" class="img_form">
+         </div>
+
+         <div class="close-form ">
+				<img src="images/картинки/invalid.png" alt="">
+			</div>
+
+     </div>
+   </div>
+</div>
+</body>
+</html>

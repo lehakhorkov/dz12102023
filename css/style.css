@@ -1,0 +1,574 @@
+.fhoto {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.gallery {
+    padding: 20px;
+    border: 2px solid rgb(81, 125, 130);
+    width: 700px;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.big {
+    width: 600px;
+    height: 500px;
+    border: 3px solid rgb(81, 125, 130);
+}
+.big img {
+    width: 100%;
+    height: 100%;
+}
+.small {
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.small a img {
+    border: none;
+    width: 110px;
+    height: 110px;
+}
+/* .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 2px solid black;
+    border-radius: 50%;
+} */
+
+.button:hover {
+    cursor: pointer;
+}
+
+/* .gallery{
+    display: none;
+} */
+
+
+
+
+
+
+
+
+
+/* .but {
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	border-radius: 10px;
+	background-color: rgb(107, 122, 114);
+	text-align: center;
+	cursor: pointer;
+
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	text-transform: uppercase;
+	border: none;
+} */
+
+/* банковская карта--------------------------------------------------- */
+
+
+.overlay {
+	position: absolute;
+	top: 0%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	/* background-color: rgba(202, 196, 196, 0.8); */
+	display: none;
+}
+
+
+.close-form img {
+	width: 30px;
+	height: 35px;
+}
+
+.close-form {
+	position: relative;
+	top: -350px;
+	right: -650px;
+	cursor: pointer;
+    width: max-content;
+}
+
+
+
+
+.Form{    
+    /* width: 70%; */
+    width: 700px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: rgb(190, 199, 195);
+    
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    
+   margin-top: 150px;
+   margin-left: auto;
+   margin-right: auto;
+   padding: 30px 0px 0px 30px;
+   column-gap: 20px;
+   row-gap: 20px;
+}
+
+.Number{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+
+.Name{
+    grid-column: 1/4;
+    grid-row: 2/3;
+    
+}
+
+.Date{
+    grid-column: 1/2;
+    grid-row: 3/4;
+    
+}
+
+.Year{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    color: rgba(0, 255, 255, 0);
+}
+
+.CVV{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+
+.Img{
+    grid-column: 4/5;
+    grid-row: 1/4;
+    justify-self: end;
+    align-self: end;
+   
+}
+
+.img_form{
+    width: 250px;
+}
+
+.numb, .num, .dat, .yea, .cv{
+    height: 60px;
+    padding-left: 10px;
+    margin-top: 10px;
+    background-color: rgb(218, 230, 230);
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16pt;
+    width: 100%;
+}
+
+
+/* регистрационная форма *//* ------------------------------------------ */
+
+/* .but_2 {
+	width: 300px;
+	height: 60px;
+	position: absolute;
+	top: 80%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	border-radius: 10px;
+	background-color: rgb(107, 122, 114);
+	text-align: center;
+	cursor: pointer;
+
+	color: rgb(255, 255, 255);
+	font-size: 20px;
+	text-transform: uppercase;
+	border: none;
+} */
+
+
+.registrForm {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+	display: none;
+}
+
+
+
+.RF{
+    width: 900px;
+    height: 350px;
+    box-shadow: 0px 0px 10px 2px grey;
+    margin: auto;
+    margin-top: 100px;
+    padding: 20px; 
+    background-color: rgb(190, 199, 195); 
+}
+
+section{
+    display: flex;
+    gap: 30px;
+}
+
+.user{
+    display: flex;
+    gap: 10px;
+}
+
+.email{
+    display: flex;
+    gap: 10px;
+}
+
+.pswd{
+    display: flex;
+    gap: 10px;
+}
+
+img{
+    width: 20px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 10pt;
+    background-color: rgb(243, 245, 246);
+}
+
+.name{
+    display: flex;
+    gap: 10px;
+    
+}
+
+.male{
+    display: flex;
+    gap: 10px;
+}
+
+h4{
+    margin: 0px 0px 10px 0px;
+}
+
+.se1>div{
+    margin-bottom: 20px;
+    
+}
+
+.se2>div{
+    margin-bottom: 20px;
+}
+
+.se1{
+    width: 50%;
+
+}
+.se2{
+    width: 50%;
+}
+
+.name input{
+    height: 21px;
+    background-color: rgb(243, 245, 246);
+}
+
+.male input{
+    height: 23px;
+    width: 50%;
+    background-color: rgb(243, 245, 246);
+}
+
+select{
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 10pt;
+    width: 50%;
+    background-color: rgb(243, 245, 246);
+}
+
+.check input{
+    width: min-content;
+    height: 10px;
+    margin: -3px;
+}
+
+.check span{
+    font-size: 10pt;
+    margin-left: 10px;
+}
+
+.check{
+    height: 20px;
+}
+
+.rfbut{
+    display: block;
+    margin-left: 760px;
+    margin-top: 60px;
+    background-color: rgb(110, 115, 113);
+    color: white;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+}
+
+.rfbut:hover {
+    cursor: pointer;
+}
+
+/* навигационная панель-------------------------------------------------------- */
+
+
+nav{
+    height: 80px;
+    background-color: rgb(118, 121, 120);
+    padding: 25px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+
+nav .logo img{
+    /* font-size: 26pt;
+    text-transform: uppercase; */
+    width: 100px;
+}
+
+nav .linkNew a, nav .linkNew_two a{
+    text-decoration: none;
+    color: black;
+    font-size: 14pt;
+}
+
+nav .linkNew, nav .linkNew_two{
+    display: flex;
+    gap: 20px;
+}
+
+nav .linkNew_two div{
+    display: none;
+}
+
+nav .MenuNew img {
+    width: 50px;
+}
+
+nav .linkNew a:hover, nav .linkNew_two a:hover {
+    color: white;
+}
+
+nav .MenuNew {
+    display: none;
+}
+
+
+
+
+@media screen and (min-width: 600px) and (max-width: 900px){
+
+    .RF{
+        width: 600px;
+        height: 550px; 
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .rfbut{
+        margin-left: 470px;
+        margin-top: 70px;
+    }
+
+    .se1{
+        width: 100%;
+    
+    }
+    .se2{
+        width: 100%;
+    }
+}
+    
+
+@media screen and (max-width: 599px){
+
+    nav .linkNew{
+        display: none;
+    }    
+
+    nav .MenuNew{
+        display: block;
+    }
+
+    nav .linkNew_two div{
+        
+        position: absolute;
+        top: 15%;
+        right: 20%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px;
+        background-color: rgb(134, 141, 139);
+        /* display: none; */
+       
+    }
+
+    .RF{
+        width: 350px;
+        height: 630px; 
+    }
+
+    section{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .rfbut{
+        margin-left: 220px;
+        margin-top: 40px;
+    }
+
+    .se1{
+        width: 100%;
+    
+    }
+    .se2{
+        width: 100%;
+    }
+
+    .pswd{
+        display: grid;
+        grid-template-columns: 1fr 15fr;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .pswd input:nth-child(2){
+        grid-column: 2/15;
+    }
+
+    .pswd input:nth-child(3){
+        grid-column: 2/15;
+    }
+
+    .name{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .male{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .male input, select{
+        width: 100%;
+    }
+   
+
+}
+
+
+@media screen and (max-width: 750px){
+
+.gallery {
+    
+    width: 700px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.big {
+    width: 80%;
+    height: 80%;
+    border: 3px solid rgb(81, 125, 130);
+}
+/* .big img {
+    width: 100%;
+    height: 100%;
+} */
+.small {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+}
+
+
+}
+
+
+@media screen and (max-width: 500px){
+
+    .gallery {
+        
+        width: 700px;
+        height: 1400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+    }
+    .big {
+        width: 100%;
+        height: 100%;
+        border: 3px solid rgb(81, 125, 130);
+    }
+    .big img {
+        width: 100%;
+        height: 100%;
+    }
+    .small {
+        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    .small a img{
+        
+        width: 200px;
+        height: 200px;
+    }
+
+
+    
+    
+    }
